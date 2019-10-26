@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  
+  body {
+      width: 960px;
+      font-size: 18px;
+      /*
+      background-size: 1600px 960px;
+      */
+      background: black;
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+  
+  .main-container {
+      background: #777;
+      display: block;
+      float: center;
+      width: 700px;
+      overflow: hidden;
+      height: 500px;
+      margin: 100px;
+  }
+  
+  #buttons{
+    text-align: center;
+    margin: 50px 0;
+  }
+  button{
+    width:300px;
+    height:100px;
+  }
